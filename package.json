@@ -3,11 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/material": "^5.15.19",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.16.0",
+    "ajv-keywords": "^5.1.0",
+    "axios": "^1.7.2",
+    "firebase": "^10.12.2",
+    "moment": "^2.30.1",
+    "razorpay": "^2.9.4",
     "react": "^18.3.1",
+    "react-currency-format": "^1.1.0",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -34,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
